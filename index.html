@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Daniil Goncharov</title>
+</head>
+<body class="page">
+  <div class="content">
+    <header class="header">
+      <div class="logo"></div>
+      <div class="lang-menu">
+        <button class="lang-menu__btn ruBtn" value="ru">RU</button>
+        <button class="lang-menu__btn enBtn" value="en">EN</button>
+      </div>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-list__item"><a class="lng-menu-main" href="#">Главная</a></li>
+          <li class="menu-list__item"><a class="lng-menu-about" href="#about">Кто я</a></li>
+          <li class="menu-list__item"><a class="lng-menu-projects" href="#projects">Мои проекты</a></li>
+          <li class="menu-list__item"><a class="lng-menu-contact" href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__about">
+          <h1 class="hero__title lng-name _anim-items _anim-no-hide">Даниил Гончаров</h1>
+          <h2 class="hero__subtitle lng-job _anim-items _anim-no-hide">Разработчик электронных курсов, методист</h2>
+          <p class="hero__description lng-short-description _anim-items _anim-no-hide"></p>
+        </div>
+        <div class="hero__box">
+          <img class="hero__box-img"
+            srcset="./images/Portret-682w.png 900w,
+                  ./images/Portret-1552w.png 1552w"
+            src="./images/Portret-1552w.png" alt="Мое фото">
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about__container _anim-items _anim-no-hide">
+        <h2 class="about__title lng-about _anim-items _anim-no-hide">Обо мне</h2>
+        <p class="about__description lng-long-description-one _anim-show _anim-no-hide"></p>
+        <p class="about__description lng-long-description-two _anim-show _anim-no-hide"></p>
+        <p class="about__description lng-long-description-three _anim-show _anim-no-hide"></p>
+        <p class="about__description lng-long-description-four _anim-show _anim-no-hide"></p>
+        <p class="about__description lng-long-description-five _anim-show _anim-no-hide"></p>
+      </div>
+      <div class="about__container _anim-items">
+        <h2 class="about__title lng-skills _anim-items">Мои навыки</h2>
+        <ul class="grid__skills">
+          <li class="grid__skills-item neonText_color_cyan _anim-items">CourseLab</li>
+          <li class="grid__skills-item neonText_color_pink _anim-items">iSpring</li>
+          <li class="grid__skills-item neonText_color_cerulian _anim-items">Articulate Storyline</li>
+          <li class="grid__skills-item neonText_color_orange-red _anim-items">Websoft HCM</li>
+          <li class="grid__skills-item neonText_color_purple _anim-items">Photoshop</li>
+          <li class="grid__skills-item neonText_color_red _anim-items">HTML5</li>
+          <li class="grid__skills-item neonText_color_blue _anim-items">CSS</li>
+          <li class="grid__skills-item neonText_color_yellow _anim-items">Java Script</li>
+        </ul>
+      </div>
+    </section>
+    <seclion class="projects">
+      <h2 class="about__title lng-courses _anim-items">Мои проекты</h2>
+      <div class="img-slider">
+        <div class="slide active">
+          <img src="./images/1с.png" alt="#">
+          <div class="info">
+            <h2 class="header-blue lng-courses-1">Интерактивный курс-тренажер 1C</h2>
+            <p class="info-blue lng-courses-info-1">Пример интерактивного курса-тренажера, обучающего работе в программе 1С</p>
+            <a class="projects__link lng-open-course" href="./portfolio/Курс 1с/autorun.html" target="_blank">Открыть курс</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./images/frontol.png" alt="#">
+          <div class="info">
+            <h2 class="header-blue lng-courses-2">Интерактивный курс-тренажер Frontol</h2>
+            <p class="info-blue lng-courses-info-2">Пример интерактивного курса-тренажера, обучающего работе в кассовой программе Frontol</p>
+            <a class="projects__link lng-open-course" href="./portfolio/Frontol-touch/autorun.html" target="_blank">Открыть курс</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./images/email.png" alt="#">
+          <div class="info">
+            <h2 class="header-blue lng-courses-3">Курс о правилах деловой переписки</h2>
+            <p class="info-blue lng-courses-info-3">Пример интерактивного курса для офисных сотрудников о правилах написания деловых писем</p>
+            <a class="projects__link lng-open-course" href="./portfolio/Правила деловой переписки/autorun.html" target="_blank">Открыть курс</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./images/aquariumistika.png" alt="#">
+          <div class="info">
+            <h2 class="header-blue lng-courses-4">Вводный курс по аквариумистике</h2>
+            <p class="info-blue lng-courses-info-4">Пример интерактивного курса, обучающего стажеров аквариумистов</p>
+            <a class="projects__link lng-open-course" href="./portfolio/Аквариумистика/autorun.html" target="_blank">Открыть курс</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./images/DF.png" alt="#">
+          <div class="info">
+            <h2 class="header-blue lng-courses-5">Курс по продукту</h2>
+            <p class="info-blue lng-courses-info-5">Пример интерактивного курса по продукту - промышленный корм для животных. Аудитория - продавцы зоомагазина</p>
+            <a class="projects__link lng-open-course" href="./portfolio/Корм для животных/autorun.html" target="_blank">Открыть курс</a>
+          </div>
+        </div>
+        <div class="navigation">
+          <div class="btn active"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+        </div>
+      </div>
+    </seclion>
+    <footer class="footer" id="contact">
+      <h2 class="lng-contact">Мои контакты</h2>
+      <ul class="contact">
+        <li>
+          <a class="contact__container" href="https://www.linkedin.com/in/daniil-goncharov-862142aa/" target="_blank">
+            <div class="contact__icon_type_linkedin"></div>
+            <p class="contact__link lng-linkedin">Моя страница в Linkedin</p>
+          </a>
+        </li>
+        <li>
+          <a class="contact__container" href="https://t.me/DanielGDrive" target="_blank">
+            <div class="contact__icon_type_telegram"></div>
+            <p class="contact__link lng-telegram">Мой Telegram</p>
+          </a>
+        </li>
+        <li class="contact__container">
+          <div class="contact__icon_type_email"></div>
+          <p class="contact__link">goncharov10d@gmail.com</p>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="./utils/constants.js"></script>
+  <script src="./pages/index.js"></script>
+</body>
+</html>

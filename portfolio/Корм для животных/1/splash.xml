@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Splash screen file, saved 4/25/2023 12:23:42 PM using CourseLab 210209 -->
+<splash>
+<settings>
+<showsplash>yes</showsplash>
+<fitwindow>no</fitwindow>
+<fit_small_window>yes</fit_small_window>
+</settings>
+<data>
+<![CDATA[<div style="position: absolute; left: 300px; top: 470px; width: 197px; height: 40px;"><div style="position: absolute; width: 197px; height: 40px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;" title="НАЧАТЬ" ><div style="position: absolute; width: 197px; height: 40px;"><img style="position: absolute; left: 0; top: 0; cursor: pointer;" onmouseover="this.src='images/trans_minimal_0009_01_1.gif';" onmouseout="this.src='images/trans_minimal_0009_01_1.gif';" onclick="CL.Start(); return false;" src="images/trans_minimal_0009_01_1.gif" /><img style="display: none;" id="OBJ_81_img_idle" src="images/trans_minimal_0009_01_1.gif" /><img style="display: none;" id="OBJ_81_img_over" src="images/trans_minimal_0009_01_1.gif" /></div></div></div><div style="position: absolute; box-sizing: border-box; left: 148px; top: 329px; width: 496px; height: 40px;"><P style="FONT-FAMILY: Arial; COLOR: #ffffff; FONT-SIZE: 24px" align=center><B>Название курса</B></P></div><img src="images/logo.png" style="position:absolute;left:0px;top:170px;width:1026px;height:197px;"/>]]>
+</data>
+</splash>

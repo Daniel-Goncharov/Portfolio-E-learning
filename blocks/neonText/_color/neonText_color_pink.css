@@ -1,0 +1,24 @@
+.neonText_color_pink {
+  animation: flicker_pink 1.5s infinite alternate;
+  color: #cc427c;
+}
+@keyframes flicker_pink {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #cc427c,
+      0 0 11px #cc427c,
+      0 0 19px #cc427c,
+      0 0 40px #cc427c,
+      0 0 80px #cc427c,
+      0 0 90px #cc427c,
+      0 0 100px #cc427c,
+      0 0 150px #cc427c;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}

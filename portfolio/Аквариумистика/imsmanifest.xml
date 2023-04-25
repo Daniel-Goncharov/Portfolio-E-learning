@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is a SCORM 2004 manifest file, created 6/2/2016 11:23:28 PM by irina using CourseLab 131209 -->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-B98CB659_321F_4657_A647_93DB3C566EA3" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd" version="1.0">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>CAM 1.3</schemaversion>
+</metadata>
+<organizations default="AQUARIUMISTIKA">
+<organization identifier="AQUARIUMISTIKA">
+<title>AQUARIUMISTIKA REGLAMENT</title>
+<imsss:sequencing>
+<imsss:controlMode choice="true" flow="true"/>
+</imsss:sequencing>
+<item identifier="AQUARIUMISTIKA" identifierref="RES1" parameters="?width=792&amp;height=536">
+<title>AQUARIUMISTIKA REGLAMENT</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource identifier="RESCOURSEIMAGES" adlcp:scormType="asset" type="webcontent">
+<file href="courseimages/1blank.gif"/>
+<file href="courseimages/agenthub.swf"/>
+<file href="courseimages/click1.swf"/>
+<file href="courseimages/click2.swf"/>
+<file href="courseimages/click3.swf"/>
+<file href="courseimages/click4.swf"/>
+<file href="courseimages/courselab.css"/>
+<file href="courseimages/courselab.js"/>
+<file href="courseimages/dummy.swf"/>
+<file href="courseimages/failure1.swf"/>
+<file href="courseimages/failure2.swf"/>
+<file href="courseimages/failure3.swf"/>
+<file href="courseimages/failure4.swf"/>
+<file href="courseimages/ie6.css"/>
+<file href="courseimages/legacy.js"/>
+<file href="courseimages/lms.js"/>
+<file href="courseimages/over1.swf"/>
+<file href="courseimages/over2.swf"/>
+<file href="courseimages/over3.swf"/>
+<file href="courseimages/over4.swf"/>
+<file href="courseimages/success1.swf"/>
+<file href="courseimages/success2.swf"/>
+<file href="courseimages/success3.swf"/>
+<file href="courseimages/success4.swf"/>
+</resource>
+<resource identifier="RES1" adlcp:scormType="sco" href="1/start.html" type="webcontent">
+<file href="1/module.js"/>
+<file href="1/start.html"/>
+<file href="1/splash.xml"/>
+<file href="1/runtime.xml"/>
+<file href="1/images/1blank.gif"/>
+<file href="1/images/clip20160531.bmp"/>
+<file href="1/images/clip20160531.png"/>
+<file href="1/images/clip20160531_1.bmp"/>
+<file href="1/images/clip20160531_1.png"/>
+<file href="1/images/clip20160531_10.png"/>
+<file href="1/images/clip20160531_11.png"/>
+<file href="1/images/clip20160531_13.bmp"/>
+<file href="1/images/clip20160531_2.bmp"/>
+<file href="1/images/clip20160531_2.png"/>
+<file href="1/images/clip20160531_3.bmp"/>
+<file href="1/images/clip20160531_3.png"/>
+<file href="1/images/clip20160531_4.bmp"/>
+<file href="1/images/clip20160531_4.png"/>
+<file href="1/images/clip20160531_5.bmp"/>
+<file href="1/images/clip20160531_5.png"/>
+<file href="1/images/clip20160531_6.png"/>
+<file href="1/images/clip20160531_7.png"/>
+<file href="1/images/clip20160531_8.png"/>
+<file href="1/images/clip20160531_9.bmp"/>
+<file href="1/images/clip20160531_9.png"/>
+<file href="1/images/clip20160601.png"/>
+<file href="1/images/clip20160601_1.png"/>
+<file href="1/images/clip20160601_11.png"/>
+<file href="1/images/clip20160601_2.png"/>
+<file href="1/images/clip20160601_3.png"/>
+<file href="1/images/clip20160601_4.bmp"/>
+<file href="1/images/clip20160601_4.png"/>
+<file href="1/images/clip20160601_5.bmp"/>
+<file href="1/images/clip20160601_5.png"/>
+<file href="1/images/clip20160601_6.bmp"/>
+<file href="1/images/clip20160601_6.png"/>
+<file href="1/images/clip20160601_7.png"/>
+<file href="1/images/clip20160601_8.png"/>
+<file href="1/images/clip20160601_9.png"/>
+<file href="1/images/clip20160602.bmp"/>
+<file href="1/images/clip20160602.png"/>
+<file href="1/images/clip20160602_1.bmp"/>
+<file href="1/images/clip20160602_1.png"/>
+<file href="1/images/clip20160602_2.bmp"/>
+<file href="1/images/clip20160602_2.png"/>
+<file href="1/images/clip20160602_5.png"/>
+<file href="1/images/clip20160602_6.png"/>
+<file href="1/images/clip20160602_7.png"/>
+<file href="1/images/course.css"/>
+<file href="1/images/cursor_arrow.gif"/>
+<file href="1/images/cursor_click.gif"/>
+<file href="1/images/minimal_0009_01_0.gif"/>
+<file href="1/images/minimal_0009_01_2.gif"/>
+<file href="1/images/minimal_0009_01_3.gif"/>
+<file href="1/images/minimal_0009_02_0.gif"/>
+<file href="1/images/minimal_0009_02_2.gif"/>
+<file href="1/images/minimal_0009_02_3.gif"/>
+<file href="1/images/minimal_0009_03_0.gif"/>
+<file href="1/images/minimal_0009_03_1.gif"/>
+<file href="1/images/minimal_0009_03_2.gif"/>
+<file href="1/images/minimal_0009_04.gif"/>
+<file href="1/images/minimal_0009_05_0.gif"/>
+<file href="1/images/minimal_0009_05_1.gif"/>
+<file href="1/images/minimal_0009_05_2.gif"/>
+<file href="1/images/minimal_0009_06_0.gif"/>
+<file href="1/images/minimal_0009_06_1.gif"/>
+<file href="1/images/minimal_0009_06_2.gif"/>
+<file href="1/images/nav_021_contents/blue/f_closed.gif"/>
+<file href="1/images/nav_021_contents/blue/f_open.gif"/>
+<file href="1/images/nav_021_contents/blue/icon_current.gif"/>
+<file href="1/images/nav_021_contents/blue/icon_unvisited.gif"/>
+<file href="1/images/nav_021_contents/blue/icon_visited.gif"/>
+<file href="1/images/trans_minimal_0009_01_1.gif"/>
+<dependency identifierref="RESCOURSEIMAGES"/>
+</resource>
+</resources>
+</manifest>

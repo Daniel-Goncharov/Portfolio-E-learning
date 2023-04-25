@@ -1,0 +1,24 @@
+.neonText_color_cerulian {
+  animation: flicker_cerulian 1.5s infinite alternate;
+  color: #007FFF;
+}
+@keyframes flicker_cerulian {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #007FFF,
+      0 0 11px #007FFF,
+      0 0 19px #007FFF,
+      0 0 40px #007FFF,
+      0 0 80px #007FFF,
+      0 0 90px #007FFF,
+      0 0 100px #007FFF,
+      0 0 150px #007FFF;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
