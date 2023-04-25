@@ -96,12 +96,12 @@ const langArr = {
     "en": "An example of an interactive course teaching trainee aquarists"
   },
   "courses-5" : {
-    "ru": "Пример интерактивного курса по продукту - промышленный корм для животных. Аудитория - продавцы зоомагазина",
-    "en": "An example of an interactive product course is Industrial Animal Feed. Audience - pet store salespeople"
+    "ru": "Курс по продукту",
+    "en": "Product course"
   },
   "courses-info-5" : {
-    "ru": "Курс по продукту",
-    "en": "An example of an interactive course teaching trainee aquarists"
+    "ru": "Пример интерактивного курса по продукту - промышленный корм для животных. Аудитория - продавцы зоомагазина",
+    "en": "An example of an interactive product course is Industrial Animal Feed. Audience - pet store salespeople"
   },
   "linkedin" : {
     "ru": "Моя страница в LinkedIn",
