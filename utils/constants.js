@@ -28,11 +28,11 @@ const langArr = {
     "en": "About me"
   },
   "short-description" : {
-    "ru": "Здравствуйте! Меня зовут Даниил Гончаров, и я профессиональный разработчик электронных курсов и методист. С 2016 года я занимаюсь созданием и адаптацией образовательных материалов для различных возрастных групп и тематических направлений.",
+    "ru": "Здравствуйте! Меня зовут Даниил Гончаров, и я профессиональный разработчик электронных курсов и методист. С 2016 года занимаюсь созданием и адаптацией образовательных материалов для различных возрастных групп и тематических направлений.",
     "en": "Hello! My name is Daniil Goncharov and I am a professional e-learning course developer and methodologist. Since 2016, I have been creating and adapting educational materials for various age groups and thematic areas."
   },
   "long-description-one" : {
-    "ru": "В 2012 году закончил Российский Государственный Гуманитарный Университет по специальности социальная психология. 10 лет работал в сфере развития и обучения персонала. Разрабатывал и проводил учебные курсы, тренинги, дистанционные он-лайн курсы.",
+    "ru": "В 2012 году окончил Российский Государственный Гуманитарный Университет по специальности социальная психология. 10 лет работал в сфере развития и обучения персонала. Разрабатывал и проводил учебные курсы, тренинги, дистанционные он-лайн курсы.",
     "en": "In 2012 he graduated from the Russian State University for the Humanities with a degree in social psychology. 10 years of experience in staff development and training. Developed and conducted training courses, trainings, distance online courses."
   },
   "long-description-two" : {
